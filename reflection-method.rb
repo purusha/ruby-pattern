@@ -62,3 +62,6 @@ eval "f.hi"  #=>NoMethodError: private method `hi' called for #<Foo:0x10a0d51>
  
 # Using instance_eval
 f.instance_eval {hi}  # hi man
+
+
+see http://blog.khd.me/ruby/ruby-dynamic-method-calling/ and related page (link at bottom of article)
